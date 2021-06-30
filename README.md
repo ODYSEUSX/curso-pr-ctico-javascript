@@ -10,3 +10,9 @@ curso de platzi
 -Tercer paso: crear funciones.
 
 -Cuarto paso: integrar html y javascript(js)
+
+## Taller #2: Porcentajes y Descuentos
+- definir las formulas
+-Implementar las formulas en javascript
+-crear funciones.
+-integrar html y javascript.
