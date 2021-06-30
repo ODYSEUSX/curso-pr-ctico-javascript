@@ -1,15 +1,19 @@
 console.group("CUADRADO")
 const ladocuadrado = 5
 console.log(`Los lados del cuadrado miden : ` + ladocuadrado*4)
- function areacuadrado(lado) { 
+ function Areacuadrado(lado) { 
    let area= lado*lado
-  return( `El area del cuadrado es: ` + area);
+  return area;
 }
 console.log(areacuadrado(17));
 
-  const perimetrocuadrado= 4*ladocuadrado
-  console.log(`El perimetro del cuadrado es :` + perimetrocuadrado)
-   console.groupEnd();
+function Perimetrocuadrado(lado){ 
+     let perimetro= 4*lado
+   return  perimetro ;
+  }
+
+
+  
 
  console.group("TRIANGULOS")
  
@@ -55,4 +59,18 @@ console.log(`el diametro del circulo es :` + diámetrocirculo)
 console.log (`el area del circulo es :`+ areacirculo)
 console.log(`El perimetro del circulo es :` + perimetrocirculo)
 console.log(`El número PI ES :`+ PI)
+// FUNCIONES PARA CALCULAR AREA Y PERIMETRO QUE EL USUARIO PONGA DENTRO DE NUESTRO INPUT
 
+function CalcularPerimetroCuadrado(){
+  const input= document.getElementById("inputcuadrado")
+  const value=input.value
+  const perimetro=Perimetrocuadrado(value)
+  alert(perimetro)
+}
+
+function CalculArareaCuadrado(){
+ const input =document.getElementById("inputcuadrado")
+ const value=input.value
+ const area=Areacuadrado(value)
+ alert(area)
+}
