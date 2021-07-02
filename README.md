@@ -16,3 +16,9 @@ curso de platzi
 -Implementar las formulas en javascript
 -crear funciones.
 -integrar html y javascript.
+
+## Taller #3: Promedio ,Mediana y Moda
+-definir las formulas
+-Implementar las formulas en javascript
+-crear funciones.
+-integrar html y javascript.

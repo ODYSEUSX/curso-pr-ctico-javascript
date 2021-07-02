@@ -28,11 +28,6 @@ function calcularPrecioConDescuento(precio, descuento){
            const inputCoupon = document.getElementById("inputCoupon");
            const couponValue = inputCoupon.value;
       
-           
-        
-           
-           
-
            const isCouponValueValid = function (coupon) {
             return coupon.name === couponValue;
         };
