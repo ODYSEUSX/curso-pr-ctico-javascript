@@ -1,15 +1,18 @@
 const list= [
-    100,
-    200,
-    500,
-    800,
-    9000,
-    40000000
+   
+    45,
+    57,
+    20000,
+    34,
+    14,
+    4567,
+    2456
 ]
 
-
+list.sort((a,b)=> a-b)
 function calcularMediaAritmetica(list){ 
  
+  
   const  sumaLista1= list.reduce(
      function (valorAcumulado = 0 , nuevoElemento){
          return valorAcumulado + nuevoElemento 
@@ -31,7 +34,6 @@ function esPar(numero){
     return false
 
 }
-let mediana
 
 }
 if (esPar(list.length)){
